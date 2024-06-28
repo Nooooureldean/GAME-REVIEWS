@@ -1,0 +1,53 @@
+body
+{
+background-color: #272B30;
+    font-family: "Comfortaa";
+    font-optical-sizing: auto;
+}
+.container
+{
+    
+}
+.navbar
+{
+ 
+    background-color: #3A497B;
+    color: white;
+
+    border-radius: pill;
+
+}
+.card
+{
+    background-color: #272B30;
+    color: white;
+}
+.hero
+{
+    background-image: url(images/wraper.png);
+    background-position: center;
+    background-size: cover;
+   width: 1350px;
+   height: 220px;
+   margin: auto;
+}
+#lightBoxContainer
+{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0);
+    color:white
+ 
+}
+.Game
+{
+
+}
+a
+{
+    text-decoration: none;
+    color: white;
+}

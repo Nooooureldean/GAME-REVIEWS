@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Reviews</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#iteming">
+    <div class="hero"></div>
+    <div class="filter m-auto d-flex justify-content-center align-items-center w-75">
+        <nav class="navbar navbar-expand-lg rounded-5 my-5 fixed-top" id="navbar">
+            <div class="container">
+                <a class="navbar-brand text-white" href="#"><img src="images/logo-sm.png" alt=""> GAME REVIEWS</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav mx-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="#" id="home-tab">MMORPG</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#" id="profile-tab">SHOOTER</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#" id="contact-tab">SAILING</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#" id="PERMADEATH">PERMADEATH</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#" id="SUPERHERO">SUPERHERO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#" id="PIXEL">PIXEL</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div id="container" class="container d-flex">
+        <div class="row gy-4" id="row"></div>
+    </div>
+    <div id="lightBoxContainer" class="d-none">
+        <div id="lightBox"></div>
+    </div>
+    <script src="main.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
